@@ -37,7 +37,7 @@ function displayElement(index) {
   
   fill(0);
   textSize(30);
-  textWrap(WORD);
+  //textWrap(WORD);
   text(title, 0, 0, width);
   
   //image
@@ -53,7 +53,7 @@ function displayElement(index) {
     
   fill(0);
   textSize(20);
-  textWrap(WORD);
+  //textWrap(WORD);
   text("Desc: " + description, 0, height/2 + 25, width);
   
   //video link
@@ -73,6 +73,6 @@ function displayElement(index) {
   
   var indexToChoose = floor(random(languages.length-1));
   var lang = languages[indexToChoose];
-  console.log(lang);
+  //console.log(lang);
   text("Language: " + lang, 0, height/2 + 300);
 }
